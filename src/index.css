@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  /* You cannot directly use Tailwind classes in standard CSS like this, 
+     but you can apply a gradient using plain CSS if needed */
+  background: linear-gradient(to right, #3b82f6, #9333ea); /* from-blue-500 to-purple-600 */
+}
